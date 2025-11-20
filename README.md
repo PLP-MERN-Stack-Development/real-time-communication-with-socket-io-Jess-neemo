@@ -4,24 +4,24 @@ A fully functional real-time chat application built with the **MERN stack** and 
 
 ## 🚀 Features Implemented
 
-### ✅ Core Chat Functionality (Task 2)
+✅ Core Chat Functionality
 - **Username-based authentication** — users join with a display name
 - **Global chat room** — all connected users receive messages in real time
 - Messages display **sender name** and **timestamp**
 - **Online/offline user status** — live updates when users join or leave
 - **Typing indicators** — shows “X is typing…” when a user is composing a message
 
-### ✅ Advanced Chat Features (Task 3) – *3+ Implemented*
+✅ Advanced Chat Features 
 - ✅ **Multiple chat rooms** (default: "general"; logic supports room switching)
 - ✅ **Private messaging** — send direct messages to specific online users
 - ✅ **Read receipts** — messages show “✓ Read” once viewed by the recipient
 
-### ✅ Real-Time Notifications (Task 4)
+✅ Real-Time Notifications 
 - Audio alert on new message (HTML5 sound)
 - Notifications when users **join** or **leave** the chat room
 - Visual feedback for message delivery and read status
 
-### ✅ Performance & UX Optimization (Task 5)
+✅ Performance & UX Optimization 
 - **Fully responsive design** — works seamlessly on mobile, tablet, and desktop (built with Tailwind CSS)
 - **Automatic reconnection** if connection drops
 - **Room-based message history** loaded on join
@@ -33,7 +33,7 @@ A fully functional real-time chat application built with the **MERN stack** and 
 - **Real-Time Engine**: WebSocket (via Socket.io)
 - **Deployment**: 
   - Frontend → Vercel  
-  - Backend → Railway
+  - Backend → Render
 
 ## ▶️ Local Setup
 
@@ -57,7 +57,7 @@ A fully functional real-time chat application built with the **MERN stack** and 
     cd client
     npm install
 
-Running the 
+## Running the Application
 
 Open two terminal windows:
 
@@ -65,7 +65,7 @@ Terminal 1 – Start the backend server:
    bash
    cd server
    npm run dev
-   # Server rund on http://localhost:3001
+   Server run on http://localhost:3001
 
 Running the Application
 Open two terminal windows:
@@ -73,16 +73,16 @@ Open two terminal windows:
 Terminal 2 – Start the frontend app:
    bash
    cd client
-   # App available at http://localhost:
+   App available at http://localhost:
    
 
-🌐 Deployment
+## 🌐 Deployment
 
-Frontend: https://your-chat-app.vercel.app
-Backend: https://your-socket-server.up.railway.app
+- **Frontend**: https://socket-chat-server-pearl.vercel.app
+- **Backend**: https://socket-chat-server-p3j7.onrender.com
 
 
-📸 Screenshots
+## 📸 Screenshots
 
 Join Screen
 
