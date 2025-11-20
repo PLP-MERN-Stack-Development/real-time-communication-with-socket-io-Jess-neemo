@@ -66,14 +66,10 @@ Terminal 1 – Start the backend server:
    cd server
    npm run dev
    Server run on http://localhost:3001
-
-Running the Application
-Open two terminal windows:
-
 Terminal 2 – Start the frontend app:
    bash
    cd client
-   App available at http://localhost:
+   App available at http://localhost:5173
    
 
 ## 🌐 Deployment
