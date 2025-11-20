@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "socket-chat-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Real-time chat backend with Socket.io",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
