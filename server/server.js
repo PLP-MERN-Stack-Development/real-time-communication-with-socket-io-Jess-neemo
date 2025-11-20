@@ -10,9 +10,8 @@ const server = http.createServer(app);
 const corsOptions = {
   origin: [
     'http://localhost:5173', // Vite
-    'http://localhost:3000', // CRA
-    // Add your Vercel URL here after deploy, e.g.:
-    // 'https://your-chat-app.vercel.app'
+    'https://socket-chat-server-pearl.vercel.app/', 
+    
   ],
   credentials: true,
 };
